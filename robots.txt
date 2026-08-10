@@ -1,2 +1,4 @@
 User-agent: *
 Allow: /
+
+Sitemap: https://andhikacillu27-max.github.io/berkaskilat/sitemap.xml
