@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>BerkasKilat | Jasa Berkas Lamaran Kerja</title>
+<meta name="description" content="BerkasKilat membantu menyiapkan CV dan berbagai kebutuhan administrasi berkas lamaran kerja secara praktis dan rapi. Konsultasi melalui WhatsApp.">
+<meta name="robots" content="index, follow">
+<meta name="theme-color" content="#0752dc">
+
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{font-family:Arial,sans-serif;background:#f5f8ff;color:#172033;line-height:1.6}
+nav{position:fixed;top:0;left:0;width:100%;z-index:99;padding:14px 7%;display:flex;justify-content:space-between;align-items:center;background:rgba(7,82,220,.96);backdrop-filter:blur(10px)}
+.logo{display:flex;align-items:center;gap:10px;color:#fff;text-decoration:none;font-weight:800;font-size:21px}
+.logo-icon{width:43px;height:43px;border-radius:12px;background:#fff;display:flex;align-items:center;justify-content:center;font-size:23px}
+nav .links{display:flex;gap:22px;align-items:center}
+nav .links a{color:#fff;text-decoration:none;font-weight:bold}
+nav .links .contact{background:#fff;color:#0752dc;padding:9px 16px;border-radius:25px}
+.hero{min-height:720px;padding:145px 7% 80px;display:flex;align-items:center;color:#fff;background:linear-gradient(135deg,#064bd9,#16a3ff);position:relative;overflow:hidden}
+.hero:before{content:"";position:absolute;width:520px;height:520px;border-radius:50%;right:-200px;top:-180px;background:rgba(255,255,255,.08)}
+.hero-content{max-width:760px;position:relative;z-index:2;animation:up .9s ease}
+.badge{display:inline-block;padding:8px 15px;border-radius:30px;background:rgba(255,255,255,.15);margin-bottom:18px;font-weight:bold;font-size:14px}
+h1{font-size:56px;line-height:1.08;margin-bottom:20px}
+h1 span{color:#ffe45c}
+.hero p{font-size:18px;max-width:680px;margin-bottom:28px}
+.buttons{display:flex;gap:14px;flex-wrap:wrap}
+.btn{display:inline-block;padding:14px 23px;border-radius:30px;text-decoration:none;font-weight:bold;transition:.25s}
+.btn:hover{transform:translateY(-3px)}
+.wa{background:#25d366;color:#fff}
+.white{background:#fff;color:#0752dc}
+section{padding:80px 7%}
+.title{text-align:center;margin-bottom:45px}
+.title h2{font-size:35px;color:#0752dc;margin-bottom:8px}
+.title p{color:#68758a}
+.services{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:20px}
+.card{background:#fff;padding:27px;border-radius:20px;border:1px solid #e8edf7;box-shadow:0 10px 30px rgba(20,70,150,.07);transition:.3s}
+.card:hover{transform:translateY(-7px)}
+.icon{width:58px;height:58px;border-radius:15px;background:#eaf2ff;display:flex;align-items:center;justify-content:center;font-size:27px;margin-bottom:16px}
+.card h3{margin-bottom:7px}.card p{color:#68758a;font-size:14px}.price{margin-top:12px;color:#0752dc;font-size:19px;font-weight:800}
+.package{margin:0 7% 80px;padding:50px;border-radius:28px;background:linear-gradient(135deg,#064bd9,#16a3ff);color:#fff;display:flex;justify-content:space-between;align-items:center;gap:25px;box-shadow:0 20px 45px rgba(9,87,232,.22)}
+.package h2{font-size:36px}.package-price{font-size:40px;font-weight:900;margin:12px 0}
+.steps{display:grid;grid-template-columns:repeat(4,1fr);gap:18px}
+.step{background:#fff;padding:27px 18px;border-radius:18px;text-align:center;box-shadow:0 10px 25px rgba(20,70,150,.06)}
+.number{width:48px;height:48px;border-radius:50%;background:#0752dc;color:#fff;display:flex;align-items:center;justify-content:center;margin:0 auto 13px;font-weight:bold}
+.step p{color:#68758a;font-size:14px}
+.cta{text-align:center;background:#0d172b;color:#fff}.cta h2{font-size:36px;margin-bottom:10px}.cta p{color:#b8c2d3;margin-bottom:22px}
+footer{padding:30px 7%;background:#070d1b;color:#fff;text-align:center}footer p{color:#8994aa}
+.float{position:fixed;right:18px;bottom:18px;width:60px;height:60px;border-radius:50%;background:#25d366;color:#fff;display:flex;align-items:center;justify-content:center;text-decoration:none;font-size:28px;z-index:100;box-shadow:0 8px 25px rgba(0,0,0,.2);animation:pulse 2s infinite}
+@keyframes up{from{opacity:0;transform:translateY(25px)}to{opacity:1;transform:translateY(0)}}
+@keyframes pulse{0%,100%{box-shadow:0 0 0 0 rgba(37,211,102,.5)}70%{box-shadow:0 0 0 14px rgba(37,211,102,0)}}
+@media(max-width:768px){
+ nav{padding:12px 5%}.links{display:none!important}
+ .hero{min-height:670px;padding:130px 6% 70px}h1{font-size:40px}
+ section{padding:65px 6%}.title h2{font-size:29px}
+ .package{margin:0 6% 65px;padding:34px 24px;flex-direction:column;align-items:flex-start}
+ .package h2{font-size:29px}.steps{grid-template-columns:1fr 1fr}
+}
+@media(max-width:450px){h1{font-size:34px}.buttons{flex-direction:column}.buttons .btn{width:100%;text-align:center}.steps{grid-template-columns:1fr}}
+</style>
+</head>
+<body>
+
+<nav>
+<a class="logo" href="#"><span class="logo-icon">📄</span>BerkasKilat</a>
+<div class="links">
+<a href="#layanan">Layanan</a>
+<a href="#paket">Paket</a>
+<a href="#cara">Cara Pesan</a>
+<a class="contact" href="#" onclick="whatsapp()">WhatsApp</a>
+</div>
+</nav>
+
+<header class="hero">
+<div class="hero-content">
+<div class="badge">⚡ JASA BERKAS LAMARAN KERJA</div>
+<h1>Siapkan Berkas <span>Lamaran Kerja</span> Lebih Praktis</h1>
+<p>BerkasKilat membantu Anda mempersiapkan CV dan berbagai kebutuhan administrasi berkas lamaran kerja secara lebih rapi, praktis, dan mudah.</p>
+<div class="buttons">
+<a class="btn wa" href="#" onclick="whatsapp()">💬 Konsultasi WhatsApp</a>
+<a class="btn white" href="#layanan">📋 Lihat Layanan</a>
+</div>
+</div>
+</header>
+
+<section id="layanan">
+<div class="title"><h2>Jasa Berkas Lamaran Kerja</h2><p>Pilih layanan yang ingin Anda konsultasikan.</p></div>
+<div class="services">
+<article class="card"><div class="icon">🪪</div><h3>NPWP</h3><p>Bantuan administrasi sesuai ketentuan yang berlaku.</p><div class="price">Rp100.000</div></article>
+<article class="card"><div class="icon">🏥</div><h3>BPJS</h3><p>Bantuan proses administrasi sesuai prosedur resmi.</p><div class="price">Rp200.000</div></article>
+<article class="card"><div class="icon">📑</div><h3>SKCK</h3><p>Pendampingan persiapan administrasi melalui prosedur resmi.</p><div class="price">Rp300.000</div></article>
+<article class="card"><div class="icon">💼</div><h3>AK1 / Kartu Kuning</h3><p>Bantuan administrasi kartu pencari kerja.</p><div class="price">Konsultasi</div></article>
+<article class="card"><div class="icon">📄</div><h3>CV Profesional</h3><p>Pembuatan CV yang rapi dan profesional untuk lamaran kerja.</p><div class="price">Konsultasi</div></article>
+<article class="card"><div class="icon">🎓</div><h3>Latar Belakang Pendidikan</h3><p>Penyusunan informasi pendidikan secara rapi dan profesional.</p><div class="price">Konsultasi</div></article>
+<article class="card"><div class="icon">🚗</div><h3>SIM</h3><p>Bantuan informasi dan pendampingan sesuai prosedur resmi.</p><div class="price">Rp1.800.000</div></article>
+</div>
+</section>
+
+<section id="paket" class="package">
+<div>
+<h2>🔥 Paket Berkas Lengkap</h2>
+<p>Solusi praktis untuk membantu mempersiapkan kebutuhan berkas lamaran pekerjaan.</p>
+<div class="package-price">Rp3.200.000</div>
+<p>Konsultasikan terlebih dahulu mengenai isi dan ketentuan paket.</p>
+</div>
+<a class="btn white" href="#" onclick="whatsapp()">📱 Pesan Sekarang</a>
+</section>
+
+<section id="cara">
+<div class="title"><h2>Cara Pemesanan</h2><p>Proses mudah untuk memulai konsultasi.</p></div>
+<div class="steps">
+<div class="step"><div class="number">1</div><h3>Hubungi Kami</h3><p>Klik WhatsApp untuk memulai konsultasi.</p></div>
+<div class="step"><div class="number">2</div><h3>Konsultasi</h3><p>Sampaikan kebutuhan berkas Anda.</p></div>
+<div class="step"><div class="number">3</div><h3>Proses</h3><p>Proses dilakukan sesuai prosedur resmi.</p></div>
+<div class="step"><div class="number">4</div><h3>Selesai</h3><p>Dokumen siap digunakan sesuai kebutuhan.</p></div>
+</div>
+</section>
+
+<section class="cta">
+<h2>Siap Menyiapkan Berkas Lamaran?</h2>
+<p>Konsultasikan kebutuhan berkas Anda sekarang.</p>
+<a class="btn wa" href="#" onclick="whatsapp()">💬 Hubungi Kami</a>
+</section>
+
+<footer>
+<p>© 2026 BerkasKilat — Jasa Berkas Lamaran Kerja</p>
+<p>WhatsApp: 0857-8734-1322</p>
+</footer>
+
+<a class="float" href="#" onclick="whatsapp()" aria-label="WhatsApp">💬</a>
+
+<script>
+function whatsapp(){
+  const nomor="6285787341322";
+  const pesan="Halo BerkasKilat 👋\n\nSaya ingin konsultasi mengenai jasa berkas lamaran kerja.\n\nNama:\nBerkas yang dibutuhkan:\n\nMohon informasi harga dan prosesnya. Terima kasih.";
+  window.open("https://wa.me/"+nomor+"?text="+encodeURIComponent(pesan),"_blank");
+}
+</script>
+
+</body>
+</html>
